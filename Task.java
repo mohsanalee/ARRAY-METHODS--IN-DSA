@@ -101,13 +101,7 @@ public class Task {
                     break;
                 case 3:
                     System.out.print("Enter the element to search: ");
-                    int searchElement = scanner.nextInt();
-                    int index = task.searchElement(searchElement);
-                    if (index != -1) {
-                        System.out.println("Element found at index " + index);
-                    } else {
-                        System.out.println("Element not found in the arrays.");
-                    }
+                  
                     break;
                 case 4:
                     task.displayArrays();
